@@ -46,7 +46,7 @@ function App() {
 
   async function addMovieHandler(movie) {
     const response = await fetch(
-      "https://react-http-1cfb5-default-rtdb.firebaseio.com/movies.json",
+      "",
       {
         method: "POST",
         body: JSON.stringify(movie),
